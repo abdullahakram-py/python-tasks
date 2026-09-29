@@ -1,0 +1,18 @@
+from PyQt5.QtCore import Qt
+
+print('Qt has AlignCenter', hasattr(Qt, 'AlignCenter'))
+print('Qt has AlignmentFlag', hasattr(Qt, 'AlignmentFlag'))
+print('Qt has Orientation', hasattr(Qt, 'Orientation'))
+print('Qt has TransformationMode', hasattr(Qt, 'TransformationMode'))
+print('Qt has KeepAspectRatio', hasattr(Qt, 'KeepAspectRatio'))
+print('Qt has SmoothTransformation', hasattr(Qt, 'SmoothTransformation'))
+print('Qt has Horizontal', hasattr(Qt, 'Horizontal'))
+print('Qt.AlignmentFlag has AlignCenter', hasattr(Qt.AlignmentFlag, 'AlignCenter'))
+print('Qt.Orientation has Horizontal', hasattr(Qt.Orientation, 'Horizontal'))
+print('Qt.TransformationMode has SmoothTransformation', hasattr(Qt.TransformationMode, 'SmoothTransformation'))
+print('Qt.AspectRatioMode has KeepAspectRatio', hasattr(Qt.AspectRatioMode, 'KeepAspectRatio'))
+print('Qt.AlignCenter value', getattr(Qt, 'AlignCenter', None))
+print('Qt.AlignmentFlag.AlignCenter value', getattr(Qt.AlignmentFlag, 'AlignCenter', None))
+print('Qt.Orientation.Horizontal value', getattr(Qt.Orientation, 'Horizontal', None))
+print('Qt.TransformationMode.SmoothTransformation value', getattr(Qt.TransformationMode, 'SmoothTransformation', None))
+print('Qt.AspectRatioMode.KeepAspectRatio value', getattr(Qt.AspectRatioMode, 'KeepAspectRatio', None))
